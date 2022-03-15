@@ -10,6 +10,17 @@ class ShortestDistance
     # For Ex: latA = 2323.2324240
     #         lonA = 7698.23324
 
+    latA = 18.175702,
+    lonA = 73.356194,
+    latR2 = 18.154988,
+    lonR2 = 73.295022,
+    latR1 = 19.115143,
+    lonR1 = 72.854969,
+    latC1 = 19.184224,
+    lonC1 = 72.820271,
+    latC2 = 19.136132,
+    lonC2 = 72.792327
+
     possible_combs =  { 'A R2 R1 C1 C2' => [latA, lonA, latR2, lonR2, latR1, lonR1, latC1, lonC1, latC2, lonC2],
                         'A R2 R1 C2 C1' => [latA, lonA, latR2, lonR2, latR1, lonR1, latC2, lonC2, latC1, lonC1],
                         'A R1 C1 R2 C2' => [latA, lonA, latR1, lonR1, latC1, lonC1, latR2, lonR2, latC2, lonC2],
@@ -61,7 +72,7 @@ class ShortestDistance
 
   def haversine_distance(lat_1, lon_1, lat_2, lon_2, miles=false)
 
-    # Accepts four coordinates in the form
+    # Accepts four coordinates (latitides & longitudes) in the form
     # of a float. I.e.
     #   miles  Boolean
 
