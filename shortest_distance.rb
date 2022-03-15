@@ -30,7 +30,6 @@ class ShortestDistance
                       }
 
     travel_speed = 20.0;
-
     values = travel_time_calculation(possible_combs, travel_speed)
     values.sort_by {|key, value| value}
     shortest_path = values.first[0].to_s
