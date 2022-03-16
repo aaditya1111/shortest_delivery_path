@@ -2,7 +2,9 @@
 
 <h3>Assumptions :-</h3>
 
-1. There would be 6 possible pathways for Aman to deliver foods from R1 & R2 restaurants to C1 & C2 customers.
+1. Language Used to code: Ruby
+
+2. There would be 6 possible pathways for Aman to deliver foods from R1 & R2 restaurants to C1 & C2 customers.
 
                         A -> R2 -> R1 -> C1 -> C2
                         A -> R2 -> R1 -> C2 -> C1
